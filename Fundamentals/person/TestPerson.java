@@ -3,13 +3,20 @@ package person;
 public class TestPerson {
   public static void main(String[] args) {
     
-    Person person = new Person();
+    Teacher professor1 = new Teacher();
 
-    person.age = 23;
-    person.cpf = "44466699925";
-    person.name = "Dilan";
+    professor1.setAge(23);
+    professor1.setCpf("44466699925");
+    professor1.setName("Dilan");
+    professor1.setWage(3500);
 
-    System.out.println( person.printPersonName());
+  
+    Student student1 = new Student();
+    student1.setAge(23);
+    student1.setCpf("44466699925");
+    student1.setName("Dilan");
+    student1.setRegistration("45541");
+
 
   }
 }
