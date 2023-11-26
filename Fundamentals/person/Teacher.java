@@ -12,5 +12,9 @@ public class Teacher extends Person {
     return wage;
   }
 
+   String printPersonName() {
+   System.out.println(super.printPersonName());
+    return "Name:  "  + getName() + " " + "Wage R$" + wage;
+  }
   
 }

@@ -25,7 +25,7 @@ public class Person {
   }
 
   String printPersonName() {
-    return "Name: "  + name;
+    return "CPF: "  + cpf;
   }
 
 }
