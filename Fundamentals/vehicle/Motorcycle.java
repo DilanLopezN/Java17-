@@ -2,9 +2,11 @@ package vehicle;
 
 public class Motorcycle extends Engine implements Vehicle {
   private double velocity;
+
   public void setVelocity(double velocity) {
     this.velocity = velocity;
   }
+
   public double getVelocity() {
     return velocity;
   }
@@ -24,11 +26,11 @@ public class Motorcycle extends Engine implements Vehicle {
     setSpeed(3);
     velocity = velocity - getSpeed();
 
-    if(velocity <= 0) {
+    if (velocity <= 0) {
       velocity = 0;
       System.out.println("Motorcycle stopped");
     }
-    
+
   }
-  
+
 }
