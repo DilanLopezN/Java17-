@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GestaoVagasApplication",
+      "request": "launch",
+      "mainClass": "dilan.com.gestao_vagas.GestaoVagasApplication",
+      "projectName": "gestao_vagas"
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-DemoApplication<demo>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
